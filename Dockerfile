@@ -36,4 +36,6 @@ COPY ./scripts/aws-profile-add.sh /usr/local/bin/aws-profile-add
 COPY ./scripts/npm-registry-scope.sh /usr/local/bin/npm-registry-scope
 COPY ./scripts/npm-registry-identity.sh /usr/local/bin/npm-registry-identity
 
+VOLUME /var/lib/docker
+
 WORKDIR /code
